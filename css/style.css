@@ -1,0 +1,97 @@
+@import './global.css';
+body{
+    background-color: var(--background-color);
+}
+section{
+   
+    padding: 50px 80px;
+    font-size: 12px;
+    height: fit-content;
+}
+
+/* heading styles */
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.heading p{
+    width: 50%;
+}
+h2{
+    font-size: 10px;
+    color: var(--heading-color);
+}
+
+p{
+    color:var(--text-color);
+    font-size: 10px;
+}
+/* card styles */
+
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 120px;
+    height: 150px;
+}
+
+h4{
+    font-size: 10px;
+}
+.price{
+    color: var(--heading-color);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.cards div{
+    display: flex;
+    flex-direction: column;
+   justify-content: space-between;
+    background-color: var(--card-color);
+    padding: 5px 8px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:70%;
+    left: 30px;
+    z-index: 9999;
+}
+
+.icon{
+    display: block;
+    /* padding: 5px; */
+    background-color: var(--background-color);
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+.icon img{
+    width: 10px;
+}
+.cards{
+    position: relative;
+    background-position: top;
+    background-size: contain;
+}
+
+
+
+.cards:first-child{
+    background-image: url('../media/card-1.jpg');
+}
+
+.cards:nth-child(2){
+    background-image: url('../media/card-2.jpg');
+}
+
+.cards:last-child{
+    background-image: url('../media/card-3.jpg');
+}

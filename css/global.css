@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --heading-color:#894F34;
+    --background-color:#F0EDE4;
+    --card-color:#F5F6F1;
+    --text-color:#A2ADB4;
+}
+
